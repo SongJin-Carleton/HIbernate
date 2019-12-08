@@ -1,0 +1,9 @@
+entity\User.class
+entity\ProjectHibernate_OptionSetting.class
+hibernateTut\ProjectHibernate_AbstractDatabaseManager.class
+entity\Account.class
+hibernateTut\ProjectHibernate_UserManager.class
+hibernateTut\Testjdbc.class
+entity\ProjectHibernate_Messages.class
+hibernateTut\ProjectHibernate_LoggerManager.class
+hibernateTut\ProjectHibernate_AccountManager.class

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+<session-factory>
+<!--
+ HibernateUtil class does the following
+	        <property name="connection.url">jdbc:mysql://localhost:3306/3601Task</property>
+	        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+	        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+	        <property name="connection.username">xxxx</property>
+	        <property name="connection.password">xxxx</property>
+	        <property name="hbm2ddl.auto">update</property>
+	        <property name="show_sql">false</property>
+	        <property name="format_sql">false</property>
+ 		 
+-->
+
+
+<property name="connection.url">jdbc:mysql://localhost:3306/3601Project</property>
+<property name="connection.username">3601Project</property>
+<property name="connection.password">3601Project</property>
+
+
+<!--DataBase Setting  -->
+
+<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
+
+<!-- Properties -->
+<property name="show_sql">true</property>
+
+
+<!--Mapping Files  -->
+<mapping class="entity.Account"/>
+<mapoing class="entity.ProjectHibernate_Messages"/>
+<mapoing class="entity.ProjectHibernate_OptionSetting"/>
+<mapping class="User"/>
+
+
+
+
+
+
+</session-factory>
+</hibernate-configuration>
